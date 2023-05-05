@@ -9,7 +9,7 @@
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Acauan Ribeiro",
+  "author": "Rosialdo Vicente",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
@@ -21,3 +21,4 @@
     "sequelize": "^6.31.0"
   }
 }
+

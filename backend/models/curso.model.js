@@ -16,4 +16,6 @@ const curso = (sequelize, DataTypes) => {
   return Curso;
 };
 
+
+
 export default curso;

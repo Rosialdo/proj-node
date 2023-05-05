@@ -1,6 +1,8 @@
 import express from "express";
 import alunos from "./alunos.js";
 import cursos from "./cursos.js";
+import sequelize from "../config/sequelize.js";
+import { Sequelize } from "sequelize";
 
 const router = express.Router();
 

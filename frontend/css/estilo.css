@@ -10,7 +10,7 @@ body {
 
 h2 {
   text-align: center;
-  color: coral;
+  color: rgb(0, 0, 0);
 }
 
 .curso {
@@ -48,9 +48,14 @@ button {
   font-size: 1.2em;
   background-color: green;
   color: #fff;
-  border-radius: 5px;
+  border-radius: 200px;
   border: none;
   float: right;
+}
+
+.edit, .remove {
+  float: none;
+  border-radius: 50px;
 }
 
 .msg {

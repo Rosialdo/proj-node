@@ -16,4 +16,19 @@ export class CursoController {
       console.log(error);
     }
   }
+
+  async getbyid(id){
+    const curso = await this.curso.findByPk(id)
+    return curso;
+  }
+
+  async deletecurso(id){
+    await this.curso.destroy({where:{id:id}})
+  }
+
+  async atualizar(cursoDTO, id){
+    await this.curso.update(cursoDTO, {where:{id:id}})
+  }
+
+  
 }
