@@ -1,4 +1,3 @@
-import "./dotenv.js";
 import express from "express";
 import routes from "./routes/index.js";
 import sequelize from "./config/sequelize.js";

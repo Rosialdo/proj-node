@@ -1,6 +1,6 @@
 export const database = {
   dialect: "postgres",
-  host: process.env.DB_HOST_LOCAL,
+  host: "localhost",
   port: 5432,
   database: "projnode",
   username: "postgres",
