@@ -53,9 +53,14 @@ button {
   float: right;
 }
 
-.edit, .remove {
+.edit {
   float: none;
   border-radius: 50px;
+}
+
+.remove {
+  border-radius: 50px;
+  float: none;
 }
 
 .msg {

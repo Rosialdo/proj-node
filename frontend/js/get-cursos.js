@@ -14,8 +14,8 @@ function preencheTela(cursos) {
     <div class="cursos">
         <h3>${curso.nome}</h3>
         <p>Carga Horária: ${curso.ch} h</p>
-        <a href="editar.html?id=${curso.id}"><button class="edit">Editar</button></a>
-        <button class="remove" onclick="deletecurso(${curso.id})">remover</button>
+        <a href="editar.html?id=${curso.id}"><button class="edit"><i class="fa fa-edit"></i></button></a>
+        <button class="remove" onclick="deletecurso(${curso.id})"><i class="fa fa-trash"></i></button></button> 
        
     `;
     divCursos.innerHTML = divCursos.innerHTML + novoCursoHTML;
